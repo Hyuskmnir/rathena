@@ -1,0 +1,678 @@
+###########################################################################
+
+Header:
+  Type: BARTER_DB
+  Version: 1
+
+Body:
+###########################################################################
+##= Magus Orb Shop ( Exchange )
+###########################################################################
+  - Name: Magus_Orb_Black
+    Items:
+      - Index: 0
+        Item: Abyss_Dress
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 1
+        Item: Antonio_Coat
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      #- Index: 2
+      #  Item: Applause_Sandal_
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      - Index: 3
+        Item: Big_CrossBow
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      #- Index: 4
+      #  Item: Blue_Gun
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      - Index: 5
+        Item: Celines_Ribbon
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 6
+        Item: Croce_Staff
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 7
+        Item: Diffusion_Lacma
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 8
+        Item: Dog_Officer
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 9
+        Item: DragonA_Red
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 10
+        Item: DVAngelNurseCap
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 11
+        Item: Enforcer_Shoes
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 12
+        Item: Etran_Shirt
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 13
+        Item: Excelion_Wing
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 14
+        Item: Fallen_Angel_Wing
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 15
+        Item: Floating_Ball
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      #- Index: 16
+      #  Item: FortunetellinSealed
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      #- Index: 17
+      #  Item: Gods_Shield
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      #- Index: 18
+      #  Item: Gun_of_Trust
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      #- Index: 19
+      #  Item: lunar_eclipse_Armor_
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      - Index: 20
+        Item: Mad_Bunny_K_
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 21
+        Item: Mob_Scarf
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 22
+        Item: Necklace_Rosary
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      #- Index: 23
+      #  Item: Nergal_Shoes_TW
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      #- Index: 24
+      #  Item: Overfishing_Gun
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      - Index: 25
+        Item: Royalguard_Necklace
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 26
+        Item: SeraphimCoronet
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 27
+        Item: Shadow_Staff
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 28
+        Item: ShieldOfGuardsman
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 29
+        Item: Shoes_Of_Pilgrim
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 30
+        Item: Spell_Circuit
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      #- Index: 31
+      #  Item: UnrivaledGun
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Black_Magus_Orb
+      #      Amount: 10
+      - Index: 32
+        Item: W_King_tiger_Doll_Hat
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 33
+        Item: Vanargand_Helm
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 34
+        Item: Imperial_Feather
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 35
+        Item: Imperial_Boots
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 36
+        Item: Black_Shiba_Inu_Hat
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 37
+        Item: Fidelity_Necklace
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 38
+        Item: Gambler_Seal
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 39
+        Item: Heart_Card_In_Mouth
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 40
+        Item: Armor_of_Rosary
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 41
+        Item: Evil_Marcher_Hat
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 42
+        Item: Perverse_Demon_Mask
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 43
+        Item: Mischievous_Fairy
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 44
+        Item: Immuned_Shield
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 45
+        Item: Poring_B_Shield
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 46
+        Item: Classical_Fhat
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 47
+        Item: Glastheim_Onlooker
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 48
+        Item: Gigantic_Bow
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+      - Index: 49
+        Item: Giant_Boots
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+      - Index: 50
+        Item: Star_Eyepatch_JP_
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 51
+        Item: Royal_Bow_K
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10 
+      - Index: 52
+        Item: Robe_Of_Flattery
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+      - Index: 53
+        Item: Bravery_Bag
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 54
+        Item: Red_Baby_Dragon
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10 
+      - Index: 55
+        Item: Heavenly_Order_
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+#      - Index: 56
+#        Item: lunar_eclipse_Armor_
+#        RequiredItems:
+#          - Index: 0
+#            Item: Black_Magus_Orb
+#            Amount: 10
+      - Index: 57
+        Item: Fafnir_Scale_J
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10 
+      - Index: 58
+        Item: Valkyrie_Hammer_
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+#      - Index: 59
+#        Item: Applause_Sandal_
+#        RequiredItems:
+#          - Index: 0
+#            Item: Black_Magus_Orb
+#            Amount: 10
+      - Index: 60
+        Item: Fairy_Leaf_Powder
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10 
+      - Index: 61
+        Item: Magic_Sword
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+      - Index: 62
+        Item: CD_In_Mouth
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10
+      - Index: 63
+        Item: Lunar_Rainbow
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10             
+      - Index: 64
+        Item: Up_Magic_Sword
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10  
+      - Index: 65
+        Item: Super_Scell
+        RequiredItems:
+          - Index: 0
+            Item: Black_Magus_Orb
+            Amount: 10            
+            
+#--------------------------------RED ORB EXCHANGE--------------------------------
+  - Name: Magus_Orb_Red
+    Items:
+      - Index: 0
+        Item: Shield_Ring
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 1
+        Item: ArchPriest_Ring
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 3
+        Item: Celine_Brooch_K
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 4
+        Item: Giant_Protection
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 5
+        Item: Imperial_Glove
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 6
+        Item: Perverse_Demon_Mask
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      #- Index: 7
+      #  Item: Star_Force_Ring_TW
+      #  RequiredItems:
+      #    - Index: 0
+      #      Item: Red_Magus_Orb
+      #      Amount: 15
+      - Index: 8
+        Item: Temporal_Ring
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 9
+        Item: Valkyrie_Drop
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15
+      - Index: 9
+        Item: Evilspirit_Gloves
+        RequiredItems:
+          - Index: 0
+            Item: Red_Magus_Orb
+            Amount: 15            
+
+#----------------------------BLUE ORB EXCHANGE-----------------------
+  - Name: Magus_Orb_Blue
+    Items:
+      - Index: 0
+        Item: Battle_Manual_X3
+        RequiredItems:
+          - Index: 0
+            Item: Blue_Magus_Orb
+            Amount: 10
+      - Index: 1
+        Item: Guarantee_Armor_11Up
+        RequiredItems:
+          - Index: 0
+            Item: Blue_Magus_Orb
+            Amount: 25
+      - Index: 2
+        Item: Guarantee_Weapon_11Up
+        RequiredItems:
+          - Index: 0
+            Item: Blue_Magus_Orb
+            Amount: 25
+      - Index: 3
+        Item: HD_Elu_Box10
+        RequiredItems:
+          - Index: 0
+            Item: Blue_Magus_Orb
+            Amount: 30
+      - Index: 4
+        Item: HD_Ori_Box10
+        RequiredItems:
+          - Index: 0
+            Item: Blue_Magus_Orb
+            Amount: 30
+      - Index: 5
+        Item: Max_Weight_Up_10Box
+        RequiredItems:
+          - Index: 0
+            Item: Blue_Magus_Orb
+            Amount: 15
+
+#----------------------------GREEN ORB EXCHANGE-----------------------
+  - Name: Magus_Orb_Green
+    Items:
+      - Index: 1
+        Item: S_Durable_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 2
+        Item: S_Durable_Shield
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 3
+        Item: S_EXP_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 4
+        Item: S_FullTemp_Armor
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 5
+        Item: S_FullTemp_Earring
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 6
+        Item: S_FullTemp_Pendant
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 7
+        Item: S_FullTemp_Shoes
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 8
+        Item: S_Super_Power_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 9
+        Item: S_M_AutoSpell_Armor
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 10
+        Item: S_M_AutoSpell_Earring
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 11
+        Item: S_M_AutoSpell_Pendant
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5
+      - Index: 12
+        Item: S_M_AutoSpell_Shoes
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 13
+        Item: S_RA_B_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 14
+        Item: S_2Para_RA_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 15
+        Item: S_2Para_RA_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 16
+        Item: S_Shadowspell_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 17
+        Item: S_Shadowspell_Pendant
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 18
+        Item: S_Shadowspell_Earing
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 19
+        Item: S_2Para_SO_Weapon
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 20
+        Item: S_SpellCaster_Armor
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 21
+        Item: S_SpellCaster_Earring
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 22
+        Item: S_SpellCaster_Pendant
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 23
+        Item: S_SpellCaster_Shoes
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 24
+        Item: S_FullPene_Armor
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 25
+        Item: S_FullPene_Shoes
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 26
+        Item: S_FullPene_Earring
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  
+      - Index: 27
+        Item: S_FullPene_Pendant
+        RequiredItems:
+          - Index: 0
+            Item: Green_Magus_Orb
+            Amount: 5  

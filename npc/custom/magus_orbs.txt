@@ -1,0 +1,52 @@
+//===== rAthena Script =======================================
+//= Magus Orbs Exchange
+//===== Description: =========================================
+// 
+//===== Changelogs: ==========================================
+//= 1.0 First Version. 
+//============================================================
+ 
+//= Magus Orbs Exchange
+//============================================================
+-	script	#MagusOrbs	HIDDEN_NPC,{
+	mes "[Magus Orbs Exchange]";
+	mes "Hello, Have you heard about the orbs used in the creation of the universe?";
+	mes "Even after so long it is possible to create the unimaginable with its power!";
+	mes "Do you happen to have any with you?";
+	next;
+	switch(select("Use Black Orbs:Use Red Orbs:Use Green Orbs:Use Blue Orbs:Cancel")) {
+	case 1:
+		mes "[Black Magus Orbs Exchange]";
+		mes "Good, It's said they have energy to grant divine powers! Let's go.";
+		close2;
+		callshop "Magus_Orb_Black";
+		break;
+	case 2:
+                mes "[Red Magus Orbs Exchange]";
+                mes "Interesting... These are very rare. Let's see what we can build.";
+                close2;
+                callshop "Magus_Orb_Red";
+                break;
+	case 3:
+                mes "[Green Magus Orbs Exchange]";
+                mes "Good, It's said they have energy to grant divine powers! Let's go.";
+                close2;
+                callshop "Magus_Orb_Green";
+                break;
+	case 4:
+                mes "[Blue Magus Orbs Exchange]";
+                mes "Good, It's said they have energy to grant divine powers! Let's go.";
+                close2;
+                callshop "Magus_Orb_Blue";
+                break;
+
+	case 5:
+		mes "[Magus Orbs Exchange]";
+		mes "Fine, comeback when you are ready.";
+		close;
+	}
+}
+
+//= Duplicate
+//============================================================
+prontera,159,187,5	duplicate(#MagusOrbs)	Magus Orbs Exchange#01	1_M_PAY_ELDER

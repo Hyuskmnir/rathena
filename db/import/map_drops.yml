@@ -1,0 +1,378 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2022 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Map Drop Database
+###########################################################################
+#
+# Map Drop Settings
+#
+###########################################################################
+# - Map                             Name of the map.
+#   GlobalDrops                     Drops for all monsters on this map. (Default: empty)
+#                                   These drops are unaffected by server drop rate and cannot be stolen.
+#     - Index                       Unique index of the drop.
+#       Item                        Item name.
+#       Rate                        Drop rate of item.
+#       RandomOptionGroup           Random Option Group applied to item on drop. (Default: None)
+#   SpecificDrops                   Drops for specific monsters on this map. (Default: empty)
+#     - Monster                     Monster name.
+#       Drops                       Drops for this specific monster. (Default: empty)
+#                                   These drops are unaffected by server drop rate and cannot be stolen.
+#         - Index                   Unique index of the drop.
+#           Item                    Item name.
+#           Rate                    Drop rate of item.
+#           RandomOptionGroup       Random Option Group applied to item on drop. (Default: None)
+###########################################################################
+
+Header:
+  Type: MAP_DROP_DB
+  Version: 1
+
+Body:
+   - Map: gl_knt01
+     GlobalDrops:
+
+     - Index: 1001
+       Item: Black_Magus_Orb
+       Rate: 500
+
+     - Index: 1002
+       Item: Red_Magus_Orb
+       Rate: 250
+
+     - Index: 1003
+       Item: Green_Magus_Orb
+       Rate: 250
+
+   - Map: gl_knt02
+     GlobalDrops:
+
+     - Index: 1004
+       Item: Black_Magus_Orb
+       Rate: 500
+
+     - Index: 1005
+       Item: Red_Magus_Orb
+       Rate: 250
+
+     - Index: 1006
+       Item: Green_Magus_Orb
+       Rate: 250
+
+   - Map: gl_cas01
+     GlobalDrops:
+
+     - Index: 1007
+       Item: Black_Magus_Orb
+       Rate: 100
+
+     - Index: 1008
+       Item: Green_Magus_Orb
+       Rate: 100
+
+   - Map: lhz_dun01
+     GlobalDrops:
+
+     - Index: 1009
+       Item: Black_Magus_Orb
+       Rate: 200
+
+     - Index: 1010
+       Item: Red_Magus_Orb
+       Rate: 200
+
+     - Index: 1011
+       Item: Green_Magus_Orb
+       Rate: 200
+
+     - Index: 1012
+       Item: Blue_Magus_Orb
+       Rate: 200
+
+   - Map: lhz_dun02
+     GlobalDrops:
+
+     - Index: 1012
+       Item: Black_Magus_Orb
+       Rate: 500
+
+     - Index: 1013
+       Item: Red_Magus_Orb
+       Rate: 500
+
+     - Index: 1014
+       Item: Green_Magus_Orb
+       Rate: 500
+
+     - Index: 1012
+       Item: Blue_Magus_Orb
+       Rate: 500
+
+   - Map: lhz_dun03
+     GlobalDrops:
+
+     - Index: 1015
+       Item: Black_Magus_Orb
+       Rate: 700
+
+     - Index: 1016
+       Item: Red_Magus_Orb
+       Rate: 700
+
+     - Index: 1017
+       Item: Green_Magus_Orb
+       Rate: 700
+
+     - Index: 1012
+       Item: Blue_Magus_Orb
+       Rate: 700
+
+   - Map: lhz_dun04
+     GlobalDrops:
+
+     - Index: 1018
+       Item: Black_Magus_Orb
+       Rate: 1000
+
+     - Index: 1019
+       Item: Red_Magus_Orb
+       Rate: 1000
+
+     - Index: 1020
+       Item: Green_Magus_Orb
+       Rate: 1000
+
+     - Index: 1021
+       Item: Blue_Magus_Orb
+       Rate: 1000
+
+   - Map: tha_t01
+     GlobalDrops:
+
+     - Index: 1022
+       Item: Black_Magus_Orb
+       Rate: 250
+
+     - Index: 1023
+       Item: Red_Magus_Orb
+       Rate: 250
+
+     - Index: 1024
+       Item: Green_Magus_Orb
+       Rate: 250
+
+   - Map: tha_t02
+     GlobalDrops:
+
+     - Index: 1025
+       Item: Black_Magus_Orb
+       Rate: 350
+
+     - Index: 1026
+       Item: Red_Magus_Orb
+       Rate: 350
+
+     - Index: 1027
+       Item: Green_Magus_Orb
+       Rate: 350
+
+   - Map: tha_t03
+     GlobalDrops:
+
+     - Index: 1028
+       Item: Black_Magus_Orb
+       Rate: 350
+
+     - Index: 1029
+       Item: Red_Magus_Orb
+       Rate: 350
+
+     - Index: 1030
+       Item: Green_Magus_Orb
+       Rate: 350
+
+   - Map: tha_t04
+     GlobalDrops:
+
+     - Index: 1031
+       Item: Black_Magus_Orb
+       Rate: 400
+
+     - Index: 1032
+       Item: Red_Magus_Orb
+       Rate: 400
+
+     - Index: 1033
+       Item: Green_Magus_Orb
+       Rate: 400
+
+     - Index: 1034
+       Item: Blue_Magus_Orb
+       Rate: 100
+
+   - Map: tha_t05
+     GlobalDrops:
+
+     - Index: 1035
+       Item: Black_Magus_Orb
+       Rate: 400
+
+     - Index: 1036
+       Item: Red_Magus_Orb
+       Rate: 400
+
+     - Index: 1037
+       Item: Green_Magus_Orb
+       Rate: 400
+
+     - Index: 1038
+       Item: Blue_Magus_Orb
+       Rate: 250
+
+   - Map: tha_t06
+     GlobalDrops:
+
+     - Index: 1039
+       Item: Black_Magus_Orb
+       Rate: 500
+
+     - Index: 1040
+       Item: Red_Magus_Orb
+       Rate: 500
+
+     - Index: 1041
+       Item: Green_Magus_Orb
+       Rate: 500
+
+     - Index: 1042
+       Item: Blue_Magus_Orb
+       Rate: 300
+
+   - Map: tha_t07
+     GlobalDrops:
+
+     - Index: 1043
+       Item: Black_Magus_Orb
+       Rate: 500
+
+     - Index: 1044
+       Item: Red_Magus_Orb
+       Rate: 500
+
+     - Index: 1045
+       Item: Green_Magus_Orb
+       Rate: 500
+
+     - Index: 1046
+       Item: Blue_Magus_Orb
+       Rate: 500
+
+   - Map: tha_t08
+     GlobalDrops:
+
+     - Index: 1047
+       Item: Black_Magus_Orb
+       Rate: 800
+
+     - Index: 1048
+       Item: Red_Magus_Orb
+       Rate: 800
+
+     - Index: 1049
+       Item: Green_Magus_Orb
+       Rate: 800
+
+     - Index: 1050
+       Item: Blue_Magus_Orb
+       Rate: 800
+
+   - Map: nif_fild01
+     GlobalDrops:
+
+     - Index: 1051
+       Item: Black_Magus_Orb
+       Rate: 250
+
+     - Index: 1052
+       Item: Red_Magus_Orb
+       Rate: 250
+
+     - Index: 1053
+       Item: Green_Magus_Orb
+       Rate: 250
+
+#     - Index: 1054
+#       Item: Blue_Magus_Orb
+#       Rate: 300
+
+   - Map: nif_fild02
+     GlobalDrops:
+
+     - Index: 1055
+       Item: Black_Magus_Orb
+       Rate: 250
+
+     - Index: 1056
+       Item: Red_Magus_Orb
+       Rate: 250
+
+     - Index: 1057
+       Item: Green_Magus_Orb
+       Rate: 250
+
+#     - Index: 1058
+#       Item: Blue_Magus_Orb
+#       Rate: 350
+
+   - Map: nif_dun01
+     GlobalDrops:
+
+     - Index: 1058
+       Item: Black_Magus_Orb
+       Rate: 1000
+
+     - Index: 1059
+       Item: Red_Magus_Orb
+       Rate: 1000
+
+     - Index: 1060
+       Item: Green_Magus_Orb
+       Rate: 1000
+
+     - Index: 1061
+       Item: Blue_Magus_Orb
+       Rate: 1000
+
+   - Map: nif_dun02
+     GlobalDrops:
+
+     - Index: 1062
+       Item: Black_Magus_Orb
+       Rate: 1500
+
+     - Index: 1063
+       Item: Red_Magus_Orb
+       Rate: 1500
+
+     - Index: 1064
+       Item: Green_Magus_Orb
+       Rate: 1500
+
+     - Index: 1065
+       Item: Blue_Magus_Orb
+       Rate: 1500
