@@ -201,7 +201,7 @@ bool mapif_load_guild_storage(int fd,uint32 account_id,int guild_id, char flag)
 	{// guild exists
 		WFIFOHEAD(fd, sizeof(struct s_storage)+13);
 		WFIFOW(fd,0) = 0x3818;
-		WFIFOW(fd,2) = sizeof(struct s_storage)+13;
+		WFIFOW(fd,2) = (uint16_t)sizeof(struct s_storage)+13;
 		WFIFOL(fd,4) = account_id;
 		WFIFOL(fd,8) = guild_id;
 		WFIFOB(fd,12) = flag; //1 open storage, 0 don't open
@@ -470,7 +470,7 @@ bool mapif_parse_itembound_retrieve(int fd)
  * @param result
  */
 void mapif_storage_data_loaded(int fd, uint32 account_id, char type, struct s_storage* entries, bool result) {
-	uint16 size = sizeof(struct s_storage) + 10;
+	uint16 size = (uint16_t)sizeof(struct s_storage) + 10;
 	
 	WFIFOHEAD(fd, size);
 	WFIFOW(fd, 0) = 0x388a;
