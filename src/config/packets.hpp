@@ -63,7 +63,7 @@
 
 /// Comment to disable the official Guild Storage skill.
 /// When enabled, this will set the guild storage size to the level of the skill * 100.
-#if PACKETVER >= 20131223
+#if PACKETVER >= 20211103
 	#define OFFICIAL_GUILD_STORAGE
 #endif
 
